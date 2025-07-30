@@ -17,7 +17,7 @@ jobs:
           distribution: "adopt"
 
       - name: Build Perseus APK
-        run: ./patch_perseus.sh
+        run: ./patch.sh
 
       - name: Zipalign and Sign Android release
         run: ./zipalign_sign.sh
